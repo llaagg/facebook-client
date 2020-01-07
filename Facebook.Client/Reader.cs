@@ -7,7 +7,7 @@ namespace Facebook.Client
     {
         public void GO()
         {
-            var accessToken = "af66a93ddf35404d011bdb7ae64e3394";
+            var accessToken = "";
             var facebookClient = new FacebookClient();
             var facebookService = new FacebookService(facebookClient);
             var getAccountTask = facebookService.GetAccountAsync(accessToken);
